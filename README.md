@@ -1,17 +1,13 @@
 ## HM: Hybrid Masking for Few-Shot Segmentation
-HM: Hybrid Masking for Few-Shot Segmentation
 
 <p align="middle">
-    <img src="figure/main_fig2.png">
+    <img src="figure/main_fig2.png" width="600" height="350" />
 </p>
-
-## Performance
-
 
 
 ## Scripts
-
-You just need to add the below lines to VAT and HSNet script.
+This work can be implemented very easily by using the below script. 
+The below script needs to be added to the [HSNet](https://github.com/juhongm999/hsnet), [VAT](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer) and [ASNet](https://github.com/dahyun-kang/ifsl).
 
             supprot_img2 = torch.zeros_like(support_img)            
             supprot_img2[:,0,:,:]= support_img[:,0,:,:]*support_mask 
@@ -27,57 +23,60 @@ You just need to add the below lines to VAT and HSNet script.
                 s_r = torch.where(support_feats[i]>0, support_feats[i],  Input_masking[i] )
                 support_feats[i] = s_r
                 
-
-
-            query_feats = self.resize_feats(query_feats, self.stack_ids)
+                
+            query_feats = self.resize_feats(query_feats, self.stack_ids)           
             support_feats = self.resize_feats(support_feats, self.stack_ids)
 
 
 
-For your convenience, we provide example of file. vat.py and hsnet.py
+For your convenience, we provide example of file. hsnet, vat.py and asnet.py
 
 
-## Pretrained models
+## Evaluation
 
-You can test using the pretrained models.
+Follow the testing direction for each method and use the pretrained models.
 
-VAT [Link] 
+HSNet-HM [Link]
+- Pascal-5 Benchmark with ResNet50
+- Pascal-5 Benchmark with ResNet101
+- COCO-20 Benchmark with ResNet50
+- COCO-20 Benchmark with ResNet101
+- FSS-1000 Benchmark with ResNet50
+- FSS-1000 Benchmark with ResNet101
 
-Pascal-5 Benchmark with ResNet50
+VAT-HM [Link]
 
-Pascal-5 Benchmark with ResNet101
+- Pascal-5 Benchmark with ResNet50
+- Pascal-5 Benchmark with ResNet101
+- COCO-20 Benchmark with ResNet50
+- FSS-1000 Benchmark with ResNet50
+- FSS-1000 Benchmark with ResNet101
 
-COCO-20 Benchmark with ResNet50
+ASNet-HM [Link]
 
-FSS-1000 Benchmark with ResNet50
+- COCO-20 Benchmark with ResNet50
+- COCO-20 Benchmark with ResNet101
 
-FSS-1000 Benchmark with ResNet101
+## Performance
 
 
-HSNet [Link]
 
-Pascal-5 Benchmark with ResNet50
-
-Pascal-5 Benchmark with ResNet101
-
-COCO-20 Benchmark with ResNet50
-
-COCO-20 Benchmark with ResNet101
-
-FSS-1000 Benchmark with ResNet50
-
-FSS-1000 Benchmark with ResNet101
-
+## Visualization
 
 <p align="middle">
-    <img src="figure/comparison.png">
+    <img src="figure/comparison.png" width="600" height="350" />
 </p>
-
 
 
 ## References
 
-We used works from [HSNet](https://github.com/juhongm999/hsnet), and [VAT](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer). Thank you very much.
+We used works from HSNet, VAT, and ASNet.
+
+- [HSNet](https://github.com/juhongm999/hsnet) : Hypercorrelation Squeeze for Few-Shot Segmentation, 2021 ICCV
+- [VAT](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer) : Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation, ECCV 2022
+- [ASNet](https://github.com/dahyun-kang/ifsl) : Integrative Few-Shot Learning for Classification and Segmentation, CVPR 2022
+
+Thank you very much.
 
 ### BibTeX
 If you find this research useful, please consider citing:
@@ -85,8 +84,8 @@ If you find this research useful, please consider citing:
 ````BibTeX
 @article{HMFS,
   title={HM: Hybrid Masking for Few-Shot Segmentation},
-  author={Seonghyeon Moon, Sam Sohn},
-  journal={arXiv preprint arXiv:2206.09667},
+  author={Seonghyeon Moon, Samuel S. Sohn, Honglu Zhou, Sejong Yoon, Vladimir Pavlovic, Muhammad Haris Khan, Mubbasir Kapadia},
+  journal={arXiv preprint arXiv:2203.12826},
   year={2022}
 }
 ````
