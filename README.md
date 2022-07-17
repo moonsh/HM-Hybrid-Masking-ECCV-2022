@@ -69,6 +69,12 @@ FSS-1000 Benchmark with ResNet50
 FSS-1000 Benchmark with ResNet101
 
 
+<p align="middle">
+    <img src="figure/comparison.png">
+</p>
+
+
+
 ## References
 
 We used works from [HSNet](https://github.com/juhongm999/hsnet), and [VAT](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer). Thank you very much.
