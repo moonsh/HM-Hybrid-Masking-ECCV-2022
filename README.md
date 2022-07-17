@@ -1,5 +1,9 @@
-# HM: Hybrid Masking for Few-Shot Segmentation
+## HM: Hybrid Masking for Few-Shot Segmentation
 HM: Hybrid Masking for Few-Shot Segmentation
+
+<p align="middle">
+    <img src="figure/main_fig2.png">
+</p>
 
 ## Performance
 
