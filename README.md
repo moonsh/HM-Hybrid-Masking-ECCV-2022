@@ -29,7 +29,7 @@ The below script needs to be added to the [HSNet](https://github.com/juhongm999/
 
 
 
-For your convenience, we provide example of file. hsnet, vat.py and asnet.py
+For your convenience, we provide example files for hsnet, vat and asnet.
 
 
 ## Evaluation
