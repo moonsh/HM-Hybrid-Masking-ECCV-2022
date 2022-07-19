@@ -34,7 +34,7 @@ For your convenience, we provide example of file. hsnet, vat.py and asnet.py
 
 ## Evaluation
 
-Follow the testing direction for each method and use the pretrained models.
+Follow the testing direction for each method and use the pretrained models with the above script.
 
 HSNet-HM [Link]
 - Pascal-5 Benchmark with ResNet50
