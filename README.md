@@ -14,18 +14,18 @@ The below script needs to be added to the [HSNet](https://github.com/juhongm999/
             supprot_img_im[:,1,:,:]= support_img[:,1,:,:]*support_mask  
             supprot_img_im[:,2,:,:]= support_img[:,2,:,:]*support_mask  
 
-            support_feats = self.extract_feats(support_img, self.backbone, self.feat_ids, self.bottleneck_ids, self.lids)
+            Feature_masking = self.extract_feats(support_img, self.backbone, self.feat_ids, self.bottleneck_ids, self.lids)
             Input_masking = self.extract_feats(supprot_img_im, self.backbone, self.feat_ids, self.bottleneck_ids, self.lids)
 
-            support_feats = self.mask_feature(support_feats, support_mask.clone())
+            Feature_masking = self.mask_feature(Feature_masking, support_mask.clone())
 
-            for i in range(len(support_feats)):
-                s_r = torch.where(support_feats[i]>0, support_feats[i],  Input_masking[i] )
-                support_feats[i] = s_r
+            for i in range(len(Feature_masking)):
+                s_r = torch.where(Feature_masking[i]>0, Feature_masking[i],  Input_masking[i] )
+                Feature_masking[i] = s_r
                 
                 
             query_feats = self.resize_feats(query_feats, self.stack_ids)           
-            support_feats = self.resize_feats(support_feats, self.stack_ids)
+            Hybrid_masking = self.resize_feats(Feature_masking, self.stack_ids)
 
 
 
