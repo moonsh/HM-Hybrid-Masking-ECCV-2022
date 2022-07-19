@@ -9,13 +9,13 @@
 This work can be implemented very easily by using the below script. 
 The below script needs to be added to the [HSNet](https://github.com/juhongm999/hsnet), [VAT](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer) and [ASNet](https://github.com/dahyun-kang/ifsl).
 
-            supprot_img2 = torch.zeros_like(support_img)            
-            supprot_img2[:,0,:,:]= support_img[:,0,:,:]*support_mask 
-            supprot_img2[:,1,:,:]= support_img[:,1,:,:]*support_mask  
-            supprot_img2[:,2,:,:]= support_img[:,2,:,:]*support_mask  
+            supprot_img_im = torch.zeros_like(support_img)            
+            supprot_img_im[:,0,:,:]= support_img[:,0,:,:]*support_mask 
+            supprot_img_im[:,1,:,:]= support_img[:,1,:,:]*support_mask  
+            supprot_img_im[:,2,:,:]= support_img[:,2,:,:]*support_mask  
 
             support_feats = self.extract_feats(support_img, self.backbone, self.feat_ids, self.bottleneck_ids, self.lids)
-            Input_masking = self.extract_feats(supprot_img2, self.backbone, self.feat_ids, self.bottleneck_ids, self.lids)
+            Input_masking = self.extract_feats(supprot_img_im, self.backbone, self.feat_ids, self.bottleneck_ids, self.lids)
 
             support_feats = self.mask_feature(support_feats, support_mask.clone())
 
