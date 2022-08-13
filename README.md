@@ -38,7 +38,7 @@ Follow the testing direction for each method and use the pretrained models with 
 
 HSNet-HM 
 - Pascal-5 Benchmark with ResNet50
-- Pascal-5 Benchmark with ResNet101
+- Pascal-5 Benchmark with ResNet101 [Link](https://drive.google.com/drive/folders/1KkUpaqwBSaK-vVHeM71zMmwkk2aNk1E0?usp=sharing)
 - COCO-20 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/1n6sNZhnDY-plL7cI4DcdXcTzwNYbSJmQ?usp=sharing)
 - COCO-20 Benchmark with ResNet101 [Link](https://drive.google.com/drive/folders/1Y7Q25SSxOmfeN3necQJ2xMITCmoCZuGl?usp=sharing)
 - FSS-1000 Benchmark with ResNet50
