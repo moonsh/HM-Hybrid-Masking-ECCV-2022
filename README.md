@@ -46,7 +46,7 @@ HSNet-HM [Link]
 
 VAT-HM [Link]
 
-- Pascal-5 Benchmark with ResNet50 [Link]()
+- Pascal-5 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/19GcKL77ciPG5MGXuONWb-_YRKE-DmzEn?usp=sharing)
 - Pascal-5 Benchmark with ResNet101 [Link]()
 - COCO-20 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/1U93SBWk0wkJHMwth8ZM19qEqcRwK3BlY?usp=sharing)
 - FSS-1000 Benchmark with ResNet50 
