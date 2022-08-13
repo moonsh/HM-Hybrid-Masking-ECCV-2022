@@ -36,7 +36,7 @@ For your convenience, we provide example files for hsnet, vat and asnet.
 
 Follow the testing direction for each method and use the pretrained models with the above script.
 
-HSNet-HM [Link]
+HSNet-HM 
 - Pascal-5 Benchmark with ResNet50
 - Pascal-5 Benchmark with ResNet101
 - COCO-20 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/1n6sNZhnDY-plL7cI4DcdXcTzwNYbSJmQ?usp=sharing)
@@ -44,15 +44,15 @@ HSNet-HM [Link]
 - FSS-1000 Benchmark with ResNet50
 - FSS-1000 Benchmark with ResNet101
 
-VAT-HM [Link]
+VAT-HM 
 
 - Pascal-5 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/19GcKL77ciPG5MGXuONWb-_YRKE-DmzEn?usp=sharing)
-- Pascal-5 Benchmark with ResNet101 [Link]()
+- Pascal-5 Benchmark with ResNet101 [Link](https://drive.google.com/drive/folders/1kXKh5wzyW8nmRUgM9rUKOEIwBKb0YLxz?usp=sharing)
 - COCO-20 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/1U93SBWk0wkJHMwth8ZM19qEqcRwK3BlY?usp=sharing)
 - FSS-1000 Benchmark with ResNet50 
 - FSS-1000 Benchmark with ResNet101 
 
-ASNet-HM [Link]
+ASNet-HM 
 
 - COCO-20 Benchmark with ResNet50 [Link]()
 - COCO-20 Benchmark with ResNet101 [Link]()
