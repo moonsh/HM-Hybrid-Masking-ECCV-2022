@@ -1,4 +1,6 @@
-## HM: Hybrid Masking for Few-Shot Segmentation
+## HM: Hybrid Masking for Few-Shot Segmentation (ECCV 2022)
+The paper on [[arXiv](https://arxiv.org/abs/2203.12826)].
+
 
 <p align="middle">
     <img src="figure/main_fig2.png" width="600" height="350" />
