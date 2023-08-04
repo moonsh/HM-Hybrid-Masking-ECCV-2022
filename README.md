@@ -1,5 +1,5 @@
 ## HM: Hybrid Masking for Few-Shot Segmentation (ECCV 2022)
-The paper on [[arXiv](https://arxiv.org/abs/2203.12826)].
+The paper is on [[arXiv](https://arxiv.org/abs/2203.12826)].
 
 
 <p align="middle">
@@ -84,10 +84,12 @@ Thank you very much.
 If you find this research useful, please consider citing:
 
 ````BibTeX
-@article{HMFS,
-  title={HM: Hybrid Masking for Few-Shot Segmentation},
-  author={Seonghyeon Moon, Samuel S. Sohn, Honglu Zhou, Sejong Yoon, Vladimir Pavlovic, Muhammad Haris Khan, Mubbasir Kapadia},
-  journal={arXiv preprint arXiv:2203.12826},
-  year={2022}
+@misc{moon2022hm,
+      title={HM: Hybrid Masking for Few-Shot Segmentation}, 
+      author={Seonghyeon Moon and Samuel S. Sohn and Honglu Zhou and Sejong Yoon and Vladimir Pavlovic and Muhammad Haris Khan and Mubbasir Kapadia},
+      year={2022},
+      eprint={2203.12826},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ````
