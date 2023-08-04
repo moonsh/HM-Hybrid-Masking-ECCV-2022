@@ -74,7 +74,7 @@ ASNet-HM
 
 Our work is based on these models. (HSNet, VAT, and ASNet)
 
-- [HSNet](https://github.com/juhongm999/hsnet) : Hypercorrelation Squeeze for Few-Shot Segmentation, 2021 ICCV
+- [HSNet](https://github.com/juhongm999/hsnet) : Hypercorrelation Squeeze for Few-Shot Segmentation, ICCV 2021
 - [VAT](https://github.com/Seokju-Cho/Volumetric-Aggregation-Transformer) : Cost Aggregation with 4D Convolutional Swin Transformer for Few-Shot Segmentation, ECCV 2022
 - [ASNet](https://github.com/dahyun-kang/ifsl) : Integrative Few-Shot Learning for Classification and Segmentation, CVPR 2022
 
