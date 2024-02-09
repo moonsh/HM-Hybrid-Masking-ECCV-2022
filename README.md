@@ -31,33 +31,33 @@ The below script needs to be added to the [HSNet](https://github.com/juhongm999/
 
 
 
-For your convenience, we provide example files for hsnet, vat and asnet.
+For your convenience, we provide example files for HSNet, VAT and ASNet.
 
 
 ## Evaluation
 
-Follow the testing direction for each method and use the pretrained models with the above script.
+Follow the testing directions for each method and use the pre-trained models with the above script.
 
-HSNet-HM 
+HSNet-HM [Link](https://drive.google.com/drive/folders/1g8UJPSZDUeDlUFgaP_dlL0UFnWKq82uz?usp=sharing)
 - Pascal-5 Benchmark with ResNet50
-- Pascal-5 Benchmark with ResNet101 [Link](https://drive.google.com/drive/folders/1KkUpaqwBSaK-vVHeM71zMmwkk2aNk1E0?usp=sharing)
-- COCO-20 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/1n6sNZhnDY-plL7cI4DcdXcTzwNYbSJmQ?usp=sharing)
-- COCO-20 Benchmark with ResNet101 [Link](https://drive.google.com/drive/folders/1Y7Q25SSxOmfeN3necQJ2xMITCmoCZuGl?usp=sharing)
+- Pascal-5 Benchmark with ResNet101
+- COCO-20 Benchmark with ResNet50
+- COCO-20 Benchmark with ResNet101
 - FSS-1000 Benchmark with ResNet50
 - FSS-1000 Benchmark with ResNet101
 
-VAT-HM 
+VAT-HM [Link](https://drive.google.com/drive/folders/1g8UJPSZDUeDlUFgaP_dlL0UFnWKq82uz?usp=sharing)
 
-- Pascal-5 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/19GcKL77ciPG5MGXuONWb-_YRKE-DmzEn?usp=sharing)
-- Pascal-5 Benchmark with ResNet101 [Link](https://drive.google.com/drive/folders/1kXKh5wzyW8nmRUgM9rUKOEIwBKb0YLxz?usp=sharing)
-- COCO-20 Benchmark with ResNet50 [Link](https://drive.google.com/drive/folders/1U93SBWk0wkJHMwth8ZM19qEqcRwK3BlY?usp=sharing)
+- Pascal-5 Benchmark with ResNet50 
+- Pascal-5 Benchmark with ResNet101 
+- COCO-20 Benchmark with ResNet50 
 - FSS-1000 Benchmark with ResNet50 
 - FSS-1000 Benchmark with ResNet101 
 
-ASNet-HM 
+ASNet-HM [Link](https://drive.google.com/drive/folders/1g8UJPSZDUeDlUFgaP_dlL0UFnWKq82uz?usp=sharing)
 
-- COCO-20 Benchmark with ResNet50 [Link](https://drive.google.com/file/d/1GuUgCey_SlJoLIYYAYzrRKuoVJKgqnVW/view?usp=sharing)
-- COCO-20 Benchmark with ResNet101 [Link](https://drive.google.com/file/d/1GuUgCey_SlJoLIYYAYzrRKuoVJKgqnVW/view?usp=sharing)
+- COCO-20 Benchmark with ResNet50 
+- COCO-20 Benchmark with ResNet101
 
 ## Performance
 
