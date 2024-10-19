@@ -1,3 +1,13 @@
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hmfs-hybrid-masking-for-few-shot-segmentation/few-shot-semantic-segmentation-on-pascal-5i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-pascal-5i-1?p=hmfs-hybrid-masking-for-few-shot-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hmfs-hybrid-masking-for-few-shot-segmentation/few-shot-semantic-segmentation-on-coco-20i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i-1?p=hmfs-hybrid-masking-for-few-shot-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hmfs-hybrid-masking-for-few-shot-segmentation/few-shot-semantic-segmentation-on-fss-1000-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-fss-1000-1?p=hmfs-hybrid-masking-for-few-shot-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hmfs-hybrid-masking-for-few-shot-segmentation/few-shot-semantic-segmentation-on-coco-20i)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-coco-20i?p=hmfs-hybrid-masking-for-few-shot-segmentation)
+
+
 ## HM: Hybrid Masking for Few-Shot Segmentation (ECCV 2022)
 The paper is on [[arXiv](https://arxiv.org/abs/2203.12826)].
 
